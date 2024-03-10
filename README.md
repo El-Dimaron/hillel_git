@@ -1,7 +1,7 @@
 The following function is used for generating password (surprisingly, I know).
 
-The difficulty/reliability can be increased by passing the following arguments into the function 'def password_gen':
-- letters - if True, both upper and lower registers will be used, if False - only lower (default, False);
+The difficulty/reliability of the password can be increased by passing the following arguments into the function 'def password_gen':
+- letters - if True, both upper and lower registers will be used, if False - only lower ones (default, False);
 - symbols - if True, the following symbols will be added to the password "!@#$%^&*()+" (default, False);
 - numbers - if True, adds numbers (0-9) to the password (default, False);
 - duplicates - if True, only unique elements will be used, no repetition (default, False);
